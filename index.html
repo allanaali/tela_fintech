@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Meta Finance</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="pagina-cadastro">
+
+        <!-- Cabeçalho -->
+        <div class="container-topo">
+
+            <div class="logo-meta">
+                <img src="image/logo.png" alt="Logo Meta Finance">
+                <span>META FINANCE</span>
+            </div>
+
+            <h1>Comece seu planejamento</h1>
+
+            <p>
+                Cadastre-se para organizar receitas, despesas e metas
+                financeiras em uma jornada segura.
+            </p>
+
+        </div>
+
+        <!-- Formulário -->
+        <div class="card-cadastro">
+
+            <span class="tag-cadastro">
+                CADASTRO
+            </span>
+
+            <h2>Criar conta</h2>
+
+            <form>
+
+                <div class="campo">
+                    <label>Nome completo</label>
+                    <input
+                        type="text"
+                        placeholder="Seu nome completo"
+                    >
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-5">
+
+                    <div class="campo">
+                        <label>Email</label>
+                        <input
+                            type="email"
+                            placeholder="seuemail@exemplo.com"
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label>Telefone</label>
+                        <input
+                            type="tel"
+                            placeholder="(00) 00000-0000"
+                        >
+                    </div>
+
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-5">
+
+                    <div class="campo">
+                        <label>Senha</label>
+                        <input
+                            type="password"
+                            placeholder="Crie uma senha"
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label>Confirmação de senha</label>
+                        <input
+                            type="password"
+                            placeholder="Repita a senha"
+                        >
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn-cadastrar">
+                    Criar conta
+                </button>
+
+            </form>
+
+            <div class="login-link">
+                Já tem cadastro?
+                <a href="#">
+                    Fazer login
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
